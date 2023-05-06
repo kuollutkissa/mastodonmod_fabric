@@ -1,0 +1,22 @@
+{
+  "mastodon_ambient": {
+    "sounds": [
+      "mastodonmod:mastodon_ambient"
+    ]
+  },
+  "mastodon_hurt": {
+    "sounds": [
+      "mastodonmod:mastodon_hurt"
+    ]
+  },
+    "mastodon_ambient_norlund": {
+      "sounds": [
+        "mastodonmod:mastodon_ambient_norlund"
+      ]
+    },
+      "mastodon_hurt_norlund": {
+        "sounds": [
+          "mastodonmod:mastodon_hurt_norlund"
+        ]
+  }
+}

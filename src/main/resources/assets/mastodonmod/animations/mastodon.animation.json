@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mastodon.idle": {
+			"loop": true,
+			"animation_length": 7.83333,
+			"bones": {
+				"Body": {
+					"position": {
+						"vector": [0, "0.25*math.sin(query.anim_time*50)", 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*50)", 0]
+					}
+				},
+				"Tail": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, "10*math.sin(query.anim_time*50)"]
+						},
+						"7.8333": {
+							"vector": [0, 0, "2*math.sin(query.anim_time*50)"]
+						}
+					}
+				},
+				"Trunk": {
+					"rotation": {
+						"vector": [0, 0, "10*math.sin(query.anim_time*60)"]
+					}
+				}
+			}
+		},
+		"animation.mastodon.walking": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"position": {
+						"vector": [0, "0.25*  math.sin(query.anim_time*60)", 0]
+					}
+				},
+				"LegFR": {
+					"rotation": {
+						"vector": ["-12.5*math.sin(query.anim_time*100)", 0, 0]
+					}
+				},
+				"LegFL": {
+					"rotation": {
+						"vector": ["12.5*math.sin(query.anim_time*50)", 0, 0]
+					}
+				},
+				"LegBL": {
+					"rotation": {
+						"vector": ["-12.5*math.sin(query.anim_time*50)", 0, 0]
+					}
+				},
+				"LegBR": {
+					"rotation": {
+						"vector": ["12.5*math.sin(query.anim_time*50)", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

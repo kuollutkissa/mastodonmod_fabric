@@ -1,0 +1,119 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mastodon",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Mastodon",
+					"pivot": [0, 32, 24]
+				},
+				{
+					"name": "Body",
+					"parent": "Mastodon",
+					"pivot": [0, 21, 11],
+					"cubes": [
+						{"origin": [-16, 11, -4], "size": [32, 21, 28], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 32, -4],
+					"cubes": [
+						{"origin": [-12, 17, -21], "size": [24, 16, 17], "uv": [0, 49]}
+					]
+				},
+				{
+					"name": "EarL",
+					"parent": "Head",
+					"pivot": [12, 33, -13],
+					"cubes": [
+						{"origin": [12, 21, -18], "size": [1, 12, 10], "uv": [56, 85]}
+					]
+				},
+				{
+					"name": "EarR",
+					"parent": "Head",
+					"pivot": [-12, 33, -13],
+					"cubes": [
+						{"origin": [-13, 21, -18], "size": [1, 12, 10], "uv": [82, 49]}
+					]
+				},
+				{
+					"name": "Trunk",
+					"parent": "Head",
+					"pivot": [0, 24, -21],
+					"cubes": [
+						{"origin": [-2, 7, -24], "size": [4, 17, 3], "uv": [92, 0]}
+					]
+				},
+				{
+					"name": "TuskL",
+					"parent": "Head",
+					"pivot": [0, 32, 24],
+					"cubes": [
+						{"origin": [10, 20, -28], "size": [2, 2, 7], "uv": [94, 49]},
+						{"origin": [10, 22, -28], "size": [2, 3, 2], "uv": [10, 20]}
+					]
+				},
+				{
+					"name": "TuskR",
+					"parent": "Head",
+					"pivot": [-5, 19, -17],
+					"cubes": [
+						{"origin": [-12, 20, -28], "size": [2, 2, 7], "uv": [65, 49]},
+						{"origin": [-12, 22, -28], "size": [2, 3, 2], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Body",
+					"pivot": [0, 32, 24],
+					"cubes": [
+						{"origin": [-0.5, 23, 24], "size": [1, 9, 1], "uv": [0, 49]}
+					]
+				},
+				{
+					"name": "LegFR",
+					"parent": "Mastodon",
+					"pivot": [-13, 11, 0],
+					"cubes": [
+						{"origin": [-16, 0, -4], "size": [7, 13, 7], "uv": [28, 82]}
+					]
+				},
+				{
+					"name": "LegFL",
+					"parent": "Mastodon",
+					"pivot": [13, 11, 0],
+					"cubes": [
+						{"origin": [9, 0, -4], "size": [7, 13, 7], "uv": [0, 82]}
+					]
+				},
+				{
+					"name": "LegBL",
+					"parent": "Mastodon",
+					"pivot": [13, 10, 21],
+					"cubes": [
+						{"origin": [9, 0, 17], "size": [7, 13, 7], "uv": [75, 75]}
+					]
+				},
+				{
+					"name": "LegBR",
+					"parent": "Mastodon",
+					"pivot": [-13, 11, 23],
+					"cubes": [
+						{"origin": [-16, 0, 17], "size": [7, 13, 7], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
